@@ -1,0 +1,14 @@
+.col {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+
+.dayBtn {
+    width: 100%;
+    background: none;
+    color: white;
+    border-radius: 20%;
+    height: 50px;
+}
