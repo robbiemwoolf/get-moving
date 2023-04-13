@@ -1,0 +1,29 @@
+.row {
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.cell {
+    text-align: center;
+    border-style: solid;
+    border-width: 0px 0px 0px 1px;
+    padding: 15px;
+}
+
+.exercise {
+    width: 55%;
+    border: none;
+}
+
+.sets {
+    width: 15%;
+}
+
+.reps {
+    width: 15%;
+}
+
+.weight {
+    width: 15%;
+}
