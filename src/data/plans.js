@@ -48,7 +48,7 @@ const plans = [
     },
     {
         day: 'pull',
-        exercise: [
+        exercises: [
             {
                 name: 'Seated Cable Rows - Heavy',
                 sets: 2,
