@@ -1,7 +1,16 @@
-import './day.css'
+import Card from '../tools/Card'
 import Table from '../tools/Table'
+
 
 export default function Pull() {
     let index = 1
-    return Table(index)
+    const plan = Table(index)
+    const card = Card(index)
+
+    return (
+        <div className='container'>
+            {card}
+            {plan}
+        </div>
+    )
 }
