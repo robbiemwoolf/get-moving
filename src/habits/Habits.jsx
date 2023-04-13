@@ -25,7 +25,7 @@ export default function Habits() {
     const strengthToggle = strengthIsComplete ? 'complete' : null
 
     return (
-  to        <div className='habits'> 
+        <div className='habits'> 
             <button className={`daily ${readToggle}`} onClick={readHandleClick}><img src={read} alt='book' /></button>
             <button className={`daily ${waterToggle}`} onClick={waterHandleClick}><img src={water} alt='water droplet' /></button>
             <button className={`daily ${stepsToggle}`} onClick={stepsHandleClick}><img src={steps} alt='footsteps' /></button>
