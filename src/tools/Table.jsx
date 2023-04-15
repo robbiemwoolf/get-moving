@@ -1,7 +1,7 @@
 import '../pages/day.css'
 import plans from '../data/plans'
 
-export default function Table(index) {
+export default function Table({index}) {
     const day = plans[index].day
     const list = plans[index].exercises.map((exercise) => {
         return (
