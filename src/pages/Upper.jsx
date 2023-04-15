@@ -1,16 +1,22 @@
-import Card from '../tools/Card'
+import { useNavigate } from 'react-router-dom'
 import Table from '../tools/Table'
+import Card from '../tools/Card'
+import '../pages/card.css'
 
 
-export default function Upper() {
+export default function Upper({setUpperDone}) {
     let index = 3
-    const plan = Table(index)
-    const card = Card(index)
+    const nav = useNavigate()
+
+    const handleClick = () => {
+        setUpperDone(true)
+        nav('/')
+    }
 
     return (
         <div className='container'>
-            {card}
-            {plan}
+            <Card handleClick={handleClick} index={index}/>
+            <Table index={index} />
         </div>
     )
 }
